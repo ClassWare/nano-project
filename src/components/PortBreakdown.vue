@@ -9,7 +9,7 @@
 
 <style scoped>
 .canvasContainer {
-  width:60%;
+  width:25%;
   margin: auto;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="canvasContainer">
       <h3>Survival Analysis</h3>
-      <div class="canvasContainer">
+      <div>
         <canvas id="idSurvivalAnalysis"></canvas>
       </div>
   </div>
@@ -9,7 +9,8 @@
 
 <style scoped>
 .canvasContainer {
-  width:60%;
+  display: inline-block;
+  width:400px;
   margin: auto;
 }
 </style>
