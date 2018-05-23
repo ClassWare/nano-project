@@ -53,15 +53,40 @@
         </div>
       </div>
   </div>
-  <div style="position:relative;top:-600px;left:500px;">
+  <!-- <div style="position:relative;top:-600px;left:500px;"> -->
+  <div class="saRightFixed">
     <SurvivalAnalysis v-bind:passenger-array="outPassengers"></SurvivalAnalysis>
   </div>
-  <div style="position:relative;top:-600px;left:500px;">
+  <!-- <div style="position:relative;top:-600px;left:500px;"> -->
+  <div class="pbRightFixed">
     <PortBreakdown v-bind:passenger-array="outPassengers"></PortBreakdown>
   </div>
 
   </div>
 </template>
+
+<style>
+.saRightFixed {
+    position:fixed;
+    top: 10%;
+    right: 1%;
+    width: 30%;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 10px;
+}
+.pbRightFixed {
+    position:fixed;
+    top: 45%;
+    right: 1%;
+    width: 30%;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 10px;
+}
+</style>
 
 <script>
 

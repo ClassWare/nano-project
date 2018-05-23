@@ -1,20 +1,11 @@
 <template>
   <div class="canvasContainer">
-      <h3>Survival Analysis</h3>
-      <div>
-        <canvas id="idSurvivalAnalysis"></canvas>
-      </div>
+    <h4>Survival Analysis</h4>
+    <div>
+      <canvas id="idSurvivalAnalysis" width="100" height="50"></canvas>
+    </div>
   </div>
 </template>
-
-<style scoped>
-.canvasContainer {
-  display: inline-block;
-  width:400px;
-  margin: auto;
-}
-</style>
-
 
 <script>
 // import Lodash from 'lodash';

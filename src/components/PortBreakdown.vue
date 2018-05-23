@@ -1,19 +1,11 @@
 <template>
-  <div>
-    <h3>Port Breakdown</h3>
-    <div class="canvasContainer">
-      <canvas id="idPortBreakdown"></canvas>
+  <div class="canvasContainer">
+    <h4>Port Breakdown</h4>
+    <div>
+      <canvas id="idPortBreakdown" width="100" height="50"></canvas>
     </div>
   </div>
 </template>
-
-<style scoped>
-.canvasContainer {
-  width:25%;
-  margin: auto;
-}
-</style>
-
 
 <script>
 import Chart from 'chart.js';
